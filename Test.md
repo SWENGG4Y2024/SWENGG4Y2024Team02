@@ -67,6 +67,7 @@ Potential risks include:
 - Inadequate test coverage
 - Schedule delays
 - Resource constraints
+
 Contingency plans will be in place to mitigate these risks.
 
 ## 15. Approvals
