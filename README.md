@@ -2,7 +2,7 @@
 
 ## Airbnb
 
-Airbnb is an online marketplace for short- and long-term homestays and experiences. It offers a diverse range of stays worldwide, from apartments to unique listings like castles. Users can book stays and communicate with hosts through the platform.
+Airbnb is an online marketplace for short and long-term homestays and experiences. It offers a diverse range of stays worldwide, from apartments to unique listings like villas and castles. Users can book stays and communicate with hosts through the platform.
 
 | BITS ID     | Name               | GitHub ID    | Email
 ----------  | -----              | --------     | --------
