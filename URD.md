@@ -5,9 +5,9 @@ The User Requirements Document (URD) outlines the functional aspects of the Airb
 
 ## User Requirements
 
-### 1. User Registration and Authentication
-- **Requirement:** Users should be able to create an account and authenticate themselves securely.
-- **Description:** The platform should provide a user-friendly registration process, allowing users to sign up using email, social media accounts, or phone numbers. It should implement robust authentication mechanisms to ensure the security of user accounts.
+### 1. User Registration, Authentication, and ID Verification
+- **Requirement:** Users should be able to create an account, authenticate securely, and verify their identity.
+- **Description:** The platform facilitates user registration via email, social media, or phone number. It employs robust authentication mechanisms for account security. Additionally, it includes a government photo ID verification process to ensure user identity authenticity.
 
 ### 2. Property Search and Listing
 - **Requirement:** Users should be able to search for properties based on various criteria and view detailed listings.
