@@ -14,8 +14,8 @@ The User Requirements Document (URD) outlines the functional aspects of the Airb
 - **Description:** The platform should offer advanced search functionalities, allowing users to filter properties by location, price range, accommodation type, amenities, and availability dates. Each property listing should include comprehensive information, such as property photos, descriptions, amenities, pricing, availability calendar, and host ratings.
 
 ### 3. Managing Listings
-- **Requirement:** Host users should be able to create and manage their property listings. They should be able to set the description, price, availability, and house rules for each listing. They should also be able to view and respond to booking requests from guests.
-- **Description:** Hosts should have access to a dashboard where they can create new property listings, edit existing listings, update availability calendars, set pricing, define house rules, and respond to booking requests from guests. This functionality empowers hosts to effectively manage their properties and engage with potential guests.
+- **Requirement:** Host users should be able to create and manage their property listings. They should be able to set the description, price, availability, and house rules for each listing.
+- **Description:** Hosts should have access to a dashboard where they can create new property listings, edit existing listings, update availability calendars, set pricing, define house rules. They should also be able to view and respond to booking requests from guests. This functionality empowers hosts to effectively manage their properties and engage with potential guests.
   
 ### 4. Booking Management
 - **Requirement:** Users should be able to initiate and manage bookings seamlessly.
