@@ -2,7 +2,7 @@
 
 ## Airbnb
 
-Airbnb is an online platform for short and long-term homestays and experiences. From cozy apartments to extravagant villas and even enchanting castles, Airbnb caters to every traveler's taste and budget. What sets Airbnb apart is its seamless interface, allowing users to not only book stays but also engage directly with hosts, fostering a sense of community and personal connection throughout their journey.
+Airbnb is an online platform for short and long-term homestays and experiences. It offers an extensive array of accommodations worldwide. From cozy apartments to extravagant villas and even enchanting castles, Airbnb caters to every traveler's taste and budget. What sets Airbnb apart is its seamless interface, allowing users to not only book stays but also engage directly with hosts, fostering a sense of community and personal connection throughout their journey.
 
 | BITS ID     | Name               | GitHub ID    | Email
 ----------  | -----              | --------     | --------
