@@ -8,6 +8,6 @@ Airbnb is an online platform for short and long-term homestays and experiences. 
 ----------  | -----              | --------       | --------
 2022HS70056 | Arghya Sengupta    | Arghya-Sengupta| 2022hs70056@wilp.bits-pilani.ac.in
 2022HS70004 | Tapabrota De       |   tde13        | 2022hs70004@wilp.bits-pilani.ac.in
-2022HS700 |          |          | 
+2022HS70022 | Tuhin Ghosh        | tuhinghosh45   | 2022hs70022@wilp.bits-pilani.ac.in
 2022HS700 |          |          | 
 2022HS700 |          |          | 
