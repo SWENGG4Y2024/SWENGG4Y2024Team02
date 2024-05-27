@@ -1,0 +1,21 @@
+@startuml
+title Airbnb System Context Diagram
+
+actor Guest
+actor Host
+actor Admin
+rectangle AirbnbSystem
+
+Guest --> AirbnbSystem : Uses
+Host --> AirbnbSystem : Uses
+Admin --> AirbnbSystem : Administers
+
+rectangle ExternalPaymentGateway {
+  AirbnbSystem --> ExternalPaymentGateway : Processes payments with
+}
+
+rectangle ExternalIdentityProvider {
+  AirbnbSystem --> ExternalIdentityProvider : Authenticates with
+}
+
+@enduml

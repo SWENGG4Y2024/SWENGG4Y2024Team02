@@ -1,0 +1,42 @@
+@startuml
+title Airbnb Container Diagram
+
+actor Guest
+actor Host
+actor Admin
+
+node AirbnbSystem {
+  [Web Application] - [Mobile Application]
+  [Web Application] --> [API Gateway]
+  [Mobile Application] --> [API Gateway]
+
+  node "Backend Services" {
+    [API Gateway] --> [User Service]
+    [API Gateway] --> [Listing Service]
+    [API Gateway] --> [Booking Service]
+    [API Gateway] --> [Payment Service]
+  }
+
+  database "User Database" {
+    [User Service] --> [User Database]
+  }
+
+  database "Listing Database" {
+    [Listing Service] --> [Listing Database]
+  }
+
+  database "Booking Database" {
+    [Booking Service] --> [Booking Database]
+  }
+
+  [Payment Service] --> ExternalPaymentGateway : Processes payments with
+  [User Service] --> ExternalIdentityProvider : Authenticates with
+}
+
+Guest --> [Web Application] : Uses
+Guest --> [Mobile Application] : Uses
+Host --> [Web Application] : Uses
+Host --> [Mobile Application] : Uses
+Admin --> [Web Application] : Administers
+
+@enduml
