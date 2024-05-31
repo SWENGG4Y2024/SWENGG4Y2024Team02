@@ -10,12 +10,24 @@ Guest --> AirbnbSystem : Uses
 Host --> AirbnbSystem : Uses
 Admin --> AirbnbSystem : Administers
 
-rectangle ExternalPaymentGateway {
-  AirbnbSystem --> ExternalPaymentGateway : Processes payments with
+rectangle "User Management" {
+  AirbnbSystem --> "User Management" : Handles user registration and authentication
 }
 
-rectangle ExternalIdentityProvider {
-  AirbnbSystem --> ExternalIdentityProvider : Authenticates with
+rectangle "Property Management" {
+  AirbnbSystem --> "Property Management" : Manages property listings
+}
+
+rectangle "Booking Management" {
+  AirbnbSystem --> "Booking Management" : Manages property bookings
+}
+
+rectangle "Payment Management" {
+  AirbnbSystem --> "Payment Management" : Processes payments
+}
+
+rectangle "Review and Rating Management" {
+  AirbnbSystem --> "Review and Rating Management" : Handles reviews and ratings
 }
 
 @enduml
