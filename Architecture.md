@@ -6,4 +6,4 @@ The system context diagram shows the interactions between the Airbnb system and 
 
 ![System Context Diagram](Context.png)
 
-![System Context Diagram](Context.png)
+![System Context Diagram](Container.png)
