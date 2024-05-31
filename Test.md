@@ -1,13 +1,22 @@
-# Test Plan for Airbnb Software
+# Airbnb Software Test Plan
 
-## 1. Introduction
-This document outlines the test plan for the Airbnb software system. It describes the approach, scope, resources, and schedule for testing the software to ensure its quality and reliability.
+## 1. Test Plan Identifier
+Airbnb Software System Test Plan Version 1.0
 
-## 2. Test Items
-The test items include all functionalities and features of the Airbnb software system as described in the Software Requirements Specification (SRS) document.
+## 2. References
+Software Requirements Specification (SRS) for Airbnb Software System
 
-## 3. Features to be Tested
-The following features will be tested:
+## 3. Introduction
+This Test Plan delineates the approach, resources, and schedule intended for the testing activities of Airbnb software system. The aim is to ensure the reliability and quality of the software by testing all functionalities and features.
+
+## 4. Test Items
+The test items encompass all features and functionalities of the Airbnb software system as per the SRS document.
+
+## 5. Software Risk Issues
+Potential risks include inadequate test coverage, delays in schedule, and resource constraints. Contingency plans will be created to mitigate these risks.
+
+## 6. Features to be Tested
+Testing will be conducted on the following features:
 - User registration and authentication
 - Property search and listing
 - Managing listings by hosts
@@ -17,61 +26,60 @@ The following features will be tested:
 - User profile management
 - Communication features
 
-## 4. Features not to be Tested
-Non-functional aspects such as performance, security, and usability will be tested separately, and are outside the scope of this Test Plan.
+## 7. Features not to be Tested
+The non-functional aspects such as security, performance, and usability will be tested separately, and thus are not included in this Test Plan.
 
-## 5. Approach
-The testing approach will include both manual and automated testing methods. Functional testing, integration testing, system testing, and user acceptance testing (UAT) will be performed to ensure comprehensive test coverage.
+## 8. Approach
+The approach for testing includes both manual and automated testing methods. Different types of tests like functional testing, system testing, integration testing, and user acceptance testing (UAT) will be performed.
 
-## 6. Item Pass/Fail Criteria
-Each feature will be tested against the requirements mentioned in the SRS. A feature will pass if it fulfills all its stated requirements. If a feature does not fulfill any of its stated requirements, it will fail and will need to be revised.
+## 9. Item Pass/Fail Criteria
+Each feature will be tested against its requirements as stated in the SRS. A feature will be considered to have passed if it meets all its stated requirements. If it fails to meet any requirement, it will be deemed to have failed and will be revised accordingly.
 
-## 7. Suspension Criteria and Resumption Requirements
-Testing activities may be suspended if critical defects are identified that hinder further testing. Testing will resume once the defects are fixed and retested.
+## 10. Suspension Criteria and Resumption Requirements
+In case critical defects are identified that hinder further testing, the testing activities may be suspended. Once these defects are fixed and retested, testing will resume.
 
-## 8. Test Deliverables
+## 11. Test Deliverables
 The test deliverables will include:
 - Test plan document
 - Test cases and test scripts
 - Test reports and summaries
 
-## 9. Testing Tasks
-Testing tasks will include:
-- Test case design
-- Test environment setup
-- Test execution
-- Defect reporting and tracking
+## 12. Remaining Test Tasks
+The remaining testing tasks encompass:
+- Designing of test cases
+- Setting up of test environment
+- Execution of tests
+- Reporting and tracking of defects
 - Regression testing
 - User acceptance testing
 
-## 10. Environmental Needs
-The testing environment will include:
+## 13. Environmental Needs
+The environment for testing will include:
 - Hardware: Computers, mobile devices
 - Software: Web browsers, operating systems
 - Test management tools: TestRail, Jira
 
-## 11. Responsibilities
-The testing team will be responsible for:
+## 14. Staffing and Training Needs
+The testing team will need to be adequately trained on the testing tools and techniques that will be used for testing the Airbnb software system.
+
+## 15. Responsibilities
+The testing team will be in charge of:
 - Test planning and design
 - Test execution and reporting
-- Defect management and resolution
+- Managing and resolving defects
 
-## 12. Staffing and Training Needs
-The testing team will require adequate training on the testing tools and techniques used for testing the Airbnb software system.
+## 16. Schedule
+The testing activities will be carried out concurrently with the development process, in accordance with the project timeline and milestones.
 
-## 13. Schedule
-The testing activities will be conducted concurrently with the development process according to the project timeline and milestones.
+## 17. Planning Risks and Contingencies
+Potential risks include insufficient test coverage, delays in schedule, and resource constraints. Contingency plans will be established to address these risks.
 
-## 14. Risks and Contingencies
-Potential risks include:
-- Inadequate test coverage
-- Schedule delays
-- Resource constraints
+## 18. Approvals
+This test plan needs approval from the project stakeholders before the commencement of testing activities.
 
-Contingency plans will be in place to mitigate these risks.
+## 19. Glossary
+- SRS: Software Requirements Specification
+- UAT: User Acceptance Testing
+- TestRail: A test case management tool
+- Jira: A project management tool used for issue tracking and project management
 
-## 15. Approvals
-This test plan requires approval from the project stakeholders before testing activities commence.
-
-## Conclusion
-The Test Plan provides a systematic approach to testing the Airbnb platform, ensuring that all functionalities work as specified in the SRS. The plan will be followed strictly to identify any bugs or defects in the system before it goes live.
