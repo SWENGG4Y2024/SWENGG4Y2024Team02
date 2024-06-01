@@ -15,6 +15,7 @@ node AirbnbSystem {
     [API Gateway] --> [Listing Service]
     [API Gateway] --> [Booking Service]
     [API Gateway] --> [Payment Service]
+    [API Gateway] --> [Review and Rating Service]
   }
 
   database "User Database" {
@@ -27,6 +28,10 @@ node AirbnbSystem {
 
   database "Booking Database" {
     [Booking Service] --> [Booking Database]
+  }
+
+  database "Review and Rating Database" {
+    [Review and Rating Service] --> [Review and Rating Database]
   }
 
   [Payment Service] --> ExternalPaymentGateway : Processes payments with
