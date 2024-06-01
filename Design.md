@@ -77,22 +77,6 @@ Components are designed to be reusable across different parts of the system, red
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/f1da5639-5519-406b-bc51-3ef0e619b083)
 
 
-
-
-
-### Property Booking
-\`\`\`mermaid
-graph TD;
-    A[Start] --> B[Search Properties]
-    B --> C[View Property Details]
-    C --> D[Check Availability]
-    D -- Available --> E[Book Property]
-    D -- Not Available --> F[Show Error]
-    E --> G[Make Payment]
-    G --> H[Confirm Booking]
-    H --> I[End]
-\`\`\`
-
 ## Database Design
 The database design follows a relational model with the following key entities:
 - **Users**: Stores user information and credentials.
