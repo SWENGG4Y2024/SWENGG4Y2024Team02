@@ -6,11 +6,11 @@
 The purpose of this document is to provide a detailed description of the requirements for the Airbnb software system. It will elaborate functional, non-functional, and interface requirements.
 
 ### 1.2 Scope
-The Airbnb software system is an online platform for people to lease or rent short-term lodging including holiday cottages, apartments, homestays, hostel beds, or hotel rooms. The system should allow users to offer and book lodging worldwide.
+The Airbnb software system is an online platform for people to lease or rent short-term lodging including holiday cottages, apartments, homestays, hostel beds, or hotel rooms. The system should allow Hosts and Customers to offer and book lodging worldwide.
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 - **Airbnb**: An online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences.
-- **User**: A person who uses the Airbnb system.
+- **Customer**: A  user who rent accommodations.
 - **Host**: A user who offers their property for rent.
 
 ### 1.4 References
@@ -25,8 +25,8 @@ The Airbnb system is an online marketplace that connects hosts who have accommod
 ## 3. Functional Requirements
 
 ### 3.1 User Management
-- The system shall allow users to register and manage their accounts.
-- The system shall authenticate users before giving access.
+- The system shall allow Hosts and Customers to register and manage their accounts.
+- The system shall authenticate Hosts and Customers before giving access.
 
 ### 3.2 Property Management
 - The system shall allow hosts to list their property, providing details like location, property type, price, availability, etc.
@@ -48,7 +48,7 @@ The Airbnb system is an online marketplace that connects hosts who have accommod
 - The system should support concurrent bookings and searches without performance degradation.
 
 ### 4.2 Security Requirements
-- The system shall store user information securely.
+- The system shall store Hosts and Customers information securely.
 - The system should use secure protocols for data transmission.
 
 ### 4.3 Usability Requirements
@@ -59,7 +59,7 @@ The Airbnb system is an online marketplace that connects hosts who have accommod
 - The system should be available 24/7.
 
 ## 5. System Interfaces
-- **User Interface**: A web-based interface for users to interact with the system.
+- **User Interface**: A web-based interface for Hosts and Customers to interact with the system.
 - **Database Interface**: The system will interact with a database to store and retrieve data.
 - **Payment Gateway Interface**: The system will integrate with a third-party payment gateway for handling payments.
 
@@ -69,7 +69,7 @@ The Airbnb system is an online marketplace that connects hosts who have accommod
 - The system shall adhere to all legal requirements related to property rental.
 
 ## 7. Data Requirements
-- The system shall store user data, property data, booking data, and payment data.
+- The system shall store Hosts and Customers data, property data, booking data, and payment data.
 
 ## 8. System Evolution
 The system should be designed in a way that it can evolve with changing requirements and technologies.
