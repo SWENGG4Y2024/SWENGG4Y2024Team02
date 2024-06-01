@@ -64,15 +64,8 @@ Components are designed to be reusable across different parts of the system, red
 
 ## Activity Diagrams
 ### User Registration
-\`\`\`mermaid
-graph TD;
-    A[Start] --> B[Enter User Details]
-    B --> C[Validate Details]
-    C -- Invalid --> D[Show Error]
-    C -- Valid --> E[Create Account]
-    E --> F[Send Confirmation Email]
-    F --> G[End]
-\`\`\`
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/7b084b84-b32d-46cb-a0a9-8638de9a96be)
+
 
 ### Property Booking
 \`\`\`mermaid
