@@ -63,8 +63,21 @@ Components are designed to be reusable across different parts of the system, red
 - System Monitoring
 
 ## Activity Diagrams
-### User Registration
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/7b084b84-b32d-46cb-a0a9-8638de9a96be)
+
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/3f26806e-98ef-4e3d-8437-75de16307b5c)
+
+
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/593ff09b-7526-4be8-b9d9-c1d8c73ba743)
+
+
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/10edd778-f919-49cb-9947-f30f7fc4d4a8)
+
+
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/f1da5639-5519-406b-bc51-3ef0e619b083)
+
+
+
 
 
 ### Property Booking
