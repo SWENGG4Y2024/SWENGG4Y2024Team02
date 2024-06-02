@@ -46,34 +46,34 @@ The User Requirements Document (URD) outlines the functional aspects of the Cozy
 
 ## User Requirements for Hosts
 
-### 1. Registration and ID Verification
+### 9. Registration and ID Verification
 - **Account Creation**: Hosts must be able to create an account using their email address, phone number, or social media accounts.
 - **ID Verification**: Hosts must complete an ID verification process by providing a valid government-issued ID and a recent photograph.
 - **Email and Phone Verification**: Verification links or codes must be sent to the host's email and phone number to ensure authenticity.
 
-### 2. User Profile
+### 10. User Profile
 - **Profile Information**: Hosts must be able to create and edit their profile, including personal information such as name, age, gender, and bio.
 - **Profile Picture**: Hosts should upload a clear profile picture.
 - **Verification Badges**: Hosts should display verification badges once ID verification is completed.
 
-### 3. Managing Listings
+### 11. Managing Listings
 - **Create Listings**: Hosts should be able to create new property listings, including details such as photos, description, amenities, house rules, pricing, and availability calendar.
 - **Edit Listings**: Hosts must be able to edit existing listings to update information, photos, and availability.
 - **Listing Status**: Hosts should be able to change the status of their listings (e.g., active, inactive, temporarily unavailable).
 - **Pricing Management**: Hosts should be able to set and adjust pricing, including seasonal pricing and discounts.
 
-### 4. Booking Management
+### 12. Booking Management
 - **Booking Requests**: Hosts should receive and manage booking requests, with the option to accept or decline.
 - **Booking Calendar**: Hosts must have access to a calendar view to manage booking dates and availability.
 - **Instant Booking**: Hosts should have the option to enable or disable instant booking.
 - **Booking Confirmation**: Hosts must receive booking confirmations via email and SMS.
 
-### 5. Cancel Bookings
+### 13. Cancel Bookings
 - **Cancellation Policies**: The platform must support multiple cancellation policies (e.g., flexible, moderate, strict) that hosts can choose from.
 - **Cancellation Process**: Hosts should be able to cancel bookings directly from their booking management page.
 - **Penalties and Consequences**: Hosts should be informed of any penalties or consequences associated with cancellations.
 
-### 6. Communication
+### 14. Communication
 - **Communication with the Guest**: Hosts should have access to an in-platform messaging system to communicate with guests.
 - **Communication with Customer Support**: Hosts should have easy access to customer support through multiple channels, including in-app messaging, email, and phone.
 
