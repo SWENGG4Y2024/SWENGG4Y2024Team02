@@ -63,18 +63,23 @@ Components are designed to be reusable across different parts of the system, red
 - System Monitoring
 
 ## Activity Diagrams
-![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/7b084b84-b32d-46cb-a0a9-8638de9a96be)
+### Activity Diagram for Guest Registration and ID Verification
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/985f600d-5ded-4f11-af55-b30ce5158478)
 
-![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/3f26806e-98ef-4e3d-8437-75de16307b5c)
+### Activity Diagram for Property Search and Listing
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/b9e4101a-6170-48f1-93a7-949e54b1b0ee)
+
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/7850323e-05fc-4509-aa66-9bc5727668df)
+
+### Activity Diagram for Guest-Host Communication
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/d36aa4f6-d113-4ad9-ad4a-4386054560e4)
+
+### Activity Diagram for Customer Support Booking and Property Access
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/39f93d92-c3cf-42f2-ae05-0dfac02e21f2)
 
 
-![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/593ff09b-7526-4be8-b9d9-c1d8c73ba743)
 
 
-![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/10edd778-f919-49cb-9947-f30f7fc4d4a8)
-
-
-![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/f1da5639-5519-406b-bc51-3ef0e619b083)
 
 
 ## Database Design
