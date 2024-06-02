@@ -1,47 +1,65 @@
 @startuml
-title Airbnb Container Diagram
+
+title Container Diagram for Airbnb-like Platform
+
+skinparam rectangle {
+  BackgroundColor<< Frontend >> #CCFFFF
+  BackgroundColor<< Backend >> #FFCC99
+  BackgroundColor<< Database >> #FFFFCC
+  BackgroundColor<< External >> #CCCCCC
+}
 
 actor Guest
 actor Host
-actor Admin
+actor CustomerSupportAgent
 
-node AirbnbSystem {
-  [Web Application] - [Mobile Application]
-  [Web Application] --> [API Gateway]
-  [Mobile Application] --> [API Gateway]
-
-  node "Backend Services" {
-    [API Gateway] --> [User Service]
-    [API Gateway] --> [Listing Service]
-    [API Gateway] --> [Booking Service]
-    [API Gateway] --> [Payment Service]
-    [API Gateway] --> [Review and Rating Service]
+rectangle "Airbnb Platform" {
+  rectangle Frontend << Frontend >> {
+    [Web Application]
+    [Mobile Application]
   }
 
-  database "User Database" {
-    [User Service] --> [User Database]
+  rectangle Backend << Backend >> {
+    [API Server]
+    [ID Verification Service]
+    [Booking Service]
+    [Payment Service]
+    [Notification Service]
   }
 
-  database "Listing Database" {
-    [Listing Service] --> [Listing Database]
+  rectangle Database << Database >> {
+    [MongoDB Database]
   }
-
-  database "Booking Database" {
-    [Booking Service] --> [Booking Database]
-  }
-
-  database "Review and Rating Database" {
-    [Review and Rating Service] --> [Review and Rating Database]
-  }
-
-  [Payment Service] --> ExternalPaymentGateway : Processes payments with
-  [User Service] --> ExternalIdentityProvider : Authenticates with
 }
 
-Guest --> [Web Application] : Uses
-Guest --> [Mobile Application] : Uses
-Host --> [Web Application] : Uses
-Host --> [Mobile Application] : Uses
-Admin --> [Web Application] : Administers
+Guest -down-> [Web Application]: Use
+Guest -down-> [Mobile Application]: Use
+Host -down-> [Web Application]: Use
+Host -down-> [Mobile Application]: Use
+CustomerSupportAgent -down-> [Web Application]: Support
+
+[Web Application] -down-> [API Server]: API Requests
+[Mobile Application] -down-> [API Server]: API Requests
+
+[API Server] -down-> [ID Verification Service]: Verify ID
+[API Server] -down-> [Booking Service]: Manage Bookings
+[API Server] -down-> [Payment Service]: Process Payments
+[API Server] -down-> [Notification Service]: Send Notifications
+
+[ID Verification Service] -down-> [MongoDB Database]: Store Verification Data
+[Booking Service] -down-> [MongoDB Database]: Store Booking Data
+[Payment Service] -down-> [MongoDB Database]: Store Payment Data
+[Notification Service] -down-> [Email Service]: Send Emails
+[Notification Service] -down-> [SMSService]: Send SMS
+
+rectangle External << External >> {
+  [PaymentGateway]
+  [EmailService]
+  [SMSService]
+}
+
+[Payment Service] -down-> [PaymentGateway]: Process Payments
+[Notification Service] -down-> [EmailService]: Send Emails
+[Notification Service] -down-> [SMSService]: Send SMS
 
 @enduml
