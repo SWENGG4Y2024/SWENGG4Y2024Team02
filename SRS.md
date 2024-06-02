@@ -157,33 +157,31 @@ CozyCove is a platform designed to connect guests with hosts offering properties
 
 The Requirements Traceability Matrix (RTM) maps the User Requirements Document (URD) to the Software Requirements Specification (SRS) to ensure that all user requirements are addressed in the software requirements. This matrix helps in validating that the software meets the needs of the users and ensures completeness and correctness in requirements management.
 
-| Requirement ID | User Requirement (URD)                                         | Software Requirement (SRS)                                                          | Comments/Status       |
-|----------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------------|
-| URD-001        | Guests must be able to create an account                        | The system shall allow users to register via email, phone, or social media accounts. | Implemented           |
-| URD-002        | Guests must complete an ID verification                         | The system shall provide an ID verification process requiring a government-issued ID and a photo. | In Progress           |
-| URD-003        | Guests must be able to search for properties using various filters | The system shall provide search filters for location, price range, amenities, property type, and dates. | Implemented           |
-| URD-004        | Guests must be able to view available properties on a map       | The system shall display available properties on a map.                             | Pending               |
-| URD-005        | Guests must be able to save properties to a favorites list      | The system shall allow users to save properties to a favorites list.                | Implemented           |
-| URD-006        | Guests must be able to book a property                          | The system shall allow users to book a property directly from the listing page, specifying check-in and check-out dates. | Implemented           |
-| URD-007        | Guests must receive booking confirmation via email and SMS      | The system shall send booking confirmations via email and SMS.                      | In Progress           |
-| URD-008        | Guests must be able to view, manage, and cancel reservations    | The system shall allow users to view, manage, and cancel their reservations from their profile. | Implemented           |
-| URD-009        | Guests must be able to make secure payments                     | The system shall support multiple payment methods and process payments through a secure gateway. | Implemented           |
-| URD-010        | Guests must receive an electronic receipt for each transaction  | The system shall send an electronic receipt for each transaction.                   | Pending               |
-| URD-011        | Guests must be able to cancel bookings and receive refunds      | The system shall allow users to cancel bookings and process refunds according to the property's cancellation policy. | In Progress           |
-| URD-012        | Guests must be able to leave reviews and ratings                | The system shall allow users to leave reviews and ratings for properties they have stayed at. | Implemented           |
-| URD-013        | Guests must be able to communicate with hosts                   | The system shall provide an in-platform messaging system for guest-host communication. | Implemented           |
-| URD-014        | Guests must have access to customer support                     | The system shall provide customer support through in-app messaging, email, and phone. | Implemented           |
-| URD-015        | Hosts must be able to create and manage property listings       | The system shall allow hosts to create and manage property listings, including photos, descriptions, and availability. | Implemented           |
-| URD-016        | Hosts must be able to manage booking requests                   | The system shall allow hosts to receive, accept, or decline booking requests.       | Implemented           |
-| URD-017        | Hosts must have access to a booking calendar                    | The system shall provide a calendar view for hosts to manage booking dates and availability. | In Progress           |
-| URD-018        | Hosts must be able to communicate with guests                   | The system shall provide an in-platform messaging system for host-guest communication. | Implemented           |
-| URD-019        | Hosts must have access to customer support                      | The system shall provide customer support for hosts through in-app messaging, email, and phone. | Implemented           |
-| URD-020        | Customer support agents must have access to booking details     | The system shall provide customer support agents with access to detailed booking information for assistance. | In Progress           |
-| URD-021        | Customer support agents must have access to property details    | The system shall provide customer support agents with access to detailed property information for assistance. | In Progress           |
-| URD-022        | Customer support agents must manage ID verification             | The system shall provide customer support agents with tools to verify the authenticity of IDs uploaded by guests and hosts. | Pending               |
-| URD-023        | Customer support agents must ensure security and privacy        | The system shall ensure customer support agents access user information securely, maintaining data privacy and security. | Pending               |
-
-
+| Requirement ID | User Requirement (URD)                                         | Software Requirement (SRS)                                                          |
+|----------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| URD-001        | Guests must be able to create an account                        | The system shall allow users to register via email, phone, or social media accounts. |
+| URD-002        | Guests must complete an ID verification                         | The system shall provide an ID verification process requiring a government-issued ID and a photo. |
+| URD-003        | Guests must be able to search for properties using various filters | The system shall provide search filters for location, price range, amenities, property type, and dates. |
+| URD-004        | Guests must be able to view available properties on a map       | The system shall display available properties on a map.                             |
+| URD-005        | Guests must be able to save properties to a favorites list      | The system shall allow users to save properties to a favorites list.                |
+| URD-006        | Guests must be able to book a property                          | The system shall allow users to book a property directly from the listing page, specifying check-in and check-out dates. |
+| URD-007        | Guests must receive booking confirmation via email and SMS      | The system shall send booking confirmations via email and SMS.                      |
+| URD-008        | Guests must be able to view, manage, and cancel reservations    | The system shall allow users to view, manage, and cancel their reservations from their profile. |
+| URD-009        | Guests must be able to make secure payments                     | The system shall support multiple payment methods and process payments through a secure gateway. |
+| URD-010        | Guests must receive an electronic receipt for each transaction  | The system shall send an electronic receipt for each transaction.                   |
+| URD-011        | Guests must be able to cancel bookings and receive refunds      | The system shall allow users to cancel bookings and process refunds according to the property's cancellation policy. |
+| URD-012        | Guests must be able to leave reviews and ratings                | The system shall allow users to leave reviews and ratings for properties they have stayed at. |
+| URD-013        | Guests must be able to communicate with hosts                   | The system shall provide an in-platform messaging system for guest-host communication. |
+| URD-014        | Guests must have access to customer support                     | The system shall provide customer support through in-app messaging, email, and phone. |
+| URD-015        | Hosts must be able to create and manage property listings       | The system shall allow hosts to create and manage property listings, including photos, descriptions, and availability. |
+| URD-016        | Hosts must be able to manage booking requests                   | The system shall allow hosts to receive, accept, or decline booking requests.       |
+| URD-017        | Hosts must have access to a booking calendar                    | The system shall provide a calendar view for hosts to manage booking dates and availability. |
+| URD-018        | Hosts must be able to communicate with guests                   | The system shall provide an in-platform messaging system for host-guest communication. |
+| URD-019        | Hosts must have access to customer support                      | The system shall provide customer support for hosts through in-app messaging, email, and phone. |
+| URD-020        | Customer support agents must have access to booking details     | The system shall provide customer support agents with access to detailed booking information for assistance. |
+| URD-021        | Customer support agents must have access to property details    | The system shall provide customer support agents with access to detailed property information for assistance. |
+| URD-022        | Customer support agents must manage ID verification             | The system shall provide customer support agents with tools to verify the authenticity of IDs uploaded by guests and hosts. |
+| URD-023        | Customer support agents must ensure security and privacy        | The system shall ensure customer support agents access user information securely, maintaining data privacy and security. |
 
 ## Appendices
 ### Glossary
