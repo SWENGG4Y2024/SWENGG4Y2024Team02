@@ -1,77 +1,168 @@
-# Software Requirements Specification (SRS) for Airbnb
+# Software Requirements Specification (SRS) for CozyCove
 
-## 1. Introduction
+## Introduction
+The Software Requirements Specification (SRS) for CozyCove outlines the functional and non-functional requirements for developing the platform. This document provides a comprehensive guide to the features, functionalities, and technical specifications necessary to meet the user requirements outlined in the URD.
 
-### 1.1 Purpose
-The purpose of this document is to provide a detailed description of the requirements for the Airbnb software system. It will elaborate functional, non-functional, and interface requirements.
+## Description
+CozyCove is a platform designed to connect guests with hosts offering properties for short-term stays. The platform facilitates property searching, booking, listing management, user profile management, secure payments, reviews, and communication between users. It aims to provide a seamless and secure user experience for both guests and hosts.
 
-### 1.2 Scope
-The Airbnb software system is an online platform for people to lease or rent short-term lodging including holiday cottages, apartments, homestays, hostel beds, or hotel rooms. The system should allow Hosts and Customers to offer and book lodging worldwide.
+## Product Features
 
-### 1.3 Definitions, Acronyms, and Abbreviations
-- **Airbnb**: An online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences.
-- **Customer**: A  user who rent accommodations.
-- **Host**: A user who offers their property for rent.
+### Requirements for Guests
 
-### 1.4 References
-Software Engineering A Practitioner’s Approach Seventh Edition by Roger S. Pressman
+#### 1. Registration and ID Verification
+- **Account Creation**: Enable account creation via email, phone number, or social media accounts.
+- **ID Verification**: Implement ID verification using government-issued ID and a recent photograph.
+- **Email and Phone Verification**: Send verification links or codes to ensure authenticity.
 
-### 1.5 Overview
-The rest of this document is organized into the following sections: System Overview, Functional Requirements, Non-Functional Requirements, System Interfaces, and Constraints.
+#### 2. User Profile
+- **Profile Information**: Allow guests to create and edit profiles, including name, age, gender, and bio.
+- **Preferences**: Enable setting preferences for notifications, communication, and search filters.
 
-## 2. System Overview
-The Airbnb system is an online marketplace that connects hosts who have accommodations to rent, with guests looking for accommodations. Hosts list and advertise their property on the platform and guests search for and book properties in their desired location.
+#### 3. Property Search and Listing
+- **Search Filters**: Provide search filters for location, price range, amenities, property type, and dates.
+- **Map View**: Include a map view to display available properties.
+- **Save Favorites**: Allow guests to save properties to a favorites list.
 
-## 3. Functional Requirements
+#### 4. Property Booking
+- **Booking Process**: Facilitate booking from the listing page with specified check-in and check-out dates.
+- **Booking Confirmation**: Send booking confirmation via email and SMS.
+- **Reservation Management**: Allow guests to view, manage, and cancel reservations.
 
-### 3.1 User Management
-- The system shall allow Hosts and Customers to register and manage their accounts.
-- The system shall authenticate Hosts and Customers before giving access.
+#### 5. Secure Payments
+- **Payment Methods**: Support multiple payment methods, including credit/debit cards and PayPal.
+- **Payment Security**: Use a secure payment gateway for processing payments.
+- **Payment Receipts**: Send electronic receipts for each transaction.
 
-### 3.2 Property Management
-- The system shall allow hosts to list their property, providing details like location, property type, price, availability, etc.
-- The system shall allow hosts to manage their listings.
+#### 6. Cancel Bookings and Refunds
+- **Cancellation Policies**: Display clear cancellation policies for each property.
+- **Cancellation Process**: Allow guests to cancel bookings from their reservation management page.
+- **Refund Process**: Process refunds according to the property's cancellation policy.
 
-### 3.3 Booking Management
-- The system shall allow guests to search for properties by location, price, availability, and other property features.
-- The system shall allow guests to book a property.
+#### 7. Reviews and Ratings
+- **Eligibility**: Allow only guests who have completed their stay to leave reviews.
+- **Review Content**: Enable guests to provide ratings and detailed reviews.
 
-### 3.4 Payment Management
-- The system shall provide a secure payment gateway for guests to pay for their bookings and for hosts to receive payments.
+#### 8. Communication
+- **Communication with the Host**: Provide an in-platform messaging system for guest-host communication.
+- **Communication with Customer Support**: Offer multiple channels for customer support, including in-app messaging, email, and phone.
 
-### 3.5 Review and Rating Management
-- The system shall allow guests to review and rate their stay at a property.
+### Requirements for Hosts
 
-## 4. Non-Functional Requirements
+#### 9. Registration and ID Verification
+- **Account Creation**: Enable account creation via email, phone number, or social media accounts.
+- **ID Verification**: Implement ID verification using government-issued ID and a recent photograph.
+- **Email and Phone Verification**: Send verification links or codes to ensure authenticity.
 
-### 4.1 Performance Requirements
-- The system should support concurrent bookings and searches without performance degradation.
+#### 10. User Profile
+- **Profile Information**: Allow hosts to create and edit profiles, including name, age, gender, and bio.
+- **Profile Picture**: Enable hosts to upload a clear profile picture.
+- **Verification Badges**: Display verification badges once ID verification is completed.
 
-### 4.2 Security Requirements
-- The system shall store Hosts and Customers information securely.
-- The system should use secure protocols for data transmission.
+#### 11. Managing Listings
+- **Create Listings**: Allow hosts to create new property listings with photos, descriptions, amenities, house rules, pricing, and availability.
+- **Edit Listings**: Enable hosts to edit existing listings.
+- **Listing Status**: Allow hosts to change the status of their listings.
+- **Pricing Management**: Enable hosts to set and adjust pricing, including seasonal pricing and discounts.
 
-### 4.3 Usability Requirements
-- The system should be easy to use and intuitive.
-- The system should provide a responsive design that works on a variety of devices and window or screen sizes.
+#### 12. Booking Management
+- **Booking Requests**: Allow hosts to receive and manage booking requests.
+- **Booking Calendar**: Provide a calendar view to manage booking dates and availability.
+- **Instant Booking**: Enable hosts to toggle instant booking.
+- **Booking Confirmation**: Send booking confirmations via email and SMS.
 
-### 4.4 Availability Requirements
-- The system should be available 24/7.
+#### 13. Cancel Bookings
+- **Cancellation Policies**: Support multiple cancellation policies.
+- **Cancellation Process**: Allow hosts to cancel bookings.
+- **Penalties and Consequences**: Inform hosts of penalties or consequences associated with cancellations.
 
-## 5. System Interfaces
-- **User Interface**: A web-based interface for Hosts and Customers to interact with the system.
-- **Database Interface**: The system will interact with a database to store and retrieve data.
-- **Payment Gateway Interface**: The system will integrate with a third-party payment gateway for handling payments.
+#### 14. Communication
+- **Communication with the Guest**: Provide an in-platform messaging system for host-guest communication.
+- **Communication with Customer Support**: Offer multiple channels for customer support, including in-app messaging, email, and phone.
 
-## 6. Constraints
-- The system shall be developed using specific technologies as per the project guidelines.
-- The system shall comply with international data protection and privacy regulations.
-- The system shall adhere to all legal requirements related to property rental.
+### Requirements for Customer Support
 
-## 7. Data Requirements
-- The system shall store Hosts and Customers data, property data, booking data, and payment data.
+#### 15. Call and Chat Support
+- **Multichannel Support**: Enable customer support agents to handle inquiries via phone calls and live chat.
+- **Chat Interface**: Allow agents to manage multiple conversations simultaneously.
+- **Call Management**: Include features such as call routing, call hold, call transfer, and call recording.
+- **Response Time**: Ensure agents adhere to specified response times.
+- **Communication History**: Provide agents access to complete communication history with users.
 
-## 8. System Evolution
-The system should be designed in a way that it can evolve with changing requirements and technologies.
+#### 16. Access to Booking Details
+- **Booking Overview**: Provide a comprehensive overview of all bookings.
+- **Booking Details**: Include detailed booking information.
+- **Booking Management**: Enable agents to modify bookings, cancel reservations, and process refunds.
+- **Issue Resolution**: Allow agents to log and track booking issues.
 
-This document provides a high-level overview of the requirements for the Airbnb system. Further details and changes will be managed through a controlled process and communicated to all stakeholders.
+#### 17. Access to Property Details
+- **Property Listings**: Provide detailed information about all properties.
+- **Property Details**: Include property descriptions, amenities, house rules, photos, pricing, availability, and host contact information.
+- **Property Management**: Enable agents to update property details and manage listing status.
+- **Verification Status**: Allow agents to view and manage verification status of properties and hosts.
+
+#### 18. ID Verification of Guests and Hosts
+- **Verification Management**: Enable agents to verify the authenticity of IDs.
+- **Security and Privacy**: Ensure secure access to user information, maintaining privacy.
+
+## User Interface
+### Guest Interface
+- **Homepage**: Search bar, featured properties, and user login/signup options.
+- **Search Results**: List view and map view with filters.
+- **Property Listing Page**: Property details, photos, amenities, reviews, booking options.
+- **User Profile**: Editable profile details, preferences, reservation history.
+- **Messaging System**: Chat interface for guest-host communication.
+
+### Host Interface
+- **Dashboard**: Overview of listings, bookings, and messages.
+- **Listing Management**: Create/edit listings, manage availability and pricing.
+- **Booking Management**: Calendar view, booking requests, booking history.
+- **Profile Management**: Editable profile details, verification status.
+
+### Customer Support Interface
+- **Support Dashboard**: Overview of active inquiries and communication history.
+- **Chat Interface**: Manage multiple chat sessions.
+- **Call System**: Call routing and management features.
+- **Booking and Property Access**: Detailed access to booking and property information.
+- **Issue Tracking**: Log and track support issues.
+
+## Technical Specifications
+### Platform Architecture
+- **Frontend**: React.js for the user interface.
+- **Backend**: Node.js with Express.js for the server-side logic.
+- **Database**: MongoDB for data storage.
+- **Authentication**: OAuth2 for secure authentication and authorization.
+- **Payment Gateway**: Integration with Stripe and PayPal for secure payments.
+- **Hosting**: AWS for scalable hosting solutions.
+
+### Security Measures
+- **Data Encryption**: Use SSL/TLS for data transmission.
+- **Secure Authentication**: Implement two-factor authentication (2FA).
+- **User Data Privacy**: Comply with GDPR and other relevant data protection regulations.
+- **Regular Audits**: Conduct regular security audits and vulnerability assessments.
+
+### Performance Requirements
+- **Scalability**: The platform must handle high traffic volumes efficiently.
+- **Load Balancing**: Implement load balancing to distribute traffic evenly.
+- **Response Time**: Ensure quick response times for user interactions.
+- **Uptime**: Aim for 99.9% uptime with minimal downtime.
+
+## Additional Requirements
+- **Localization**: Support multiple languages and currencies.
+- **Accessibility**: Ensure the platform is accessible to users with disabilities.
+- **Mobile Compatibility**: Provide a responsive design for mobile devices.
+- **Backup and Recovery**: Implement regular data backups and disaster recovery plans.
+
+## Appendices
+### Glossary
+- **Guest**: A user looking to book a property.
+- **Host**: A user listing a property for rent.
+- **Booking**: A confirmed reservation of a property.
+- **ID Verification**: The process of validating a user's identity using government-issued ID.
+
+### References
+- User Requirements Document (URD) for CozyCove
+- GDPR Compliance Guidelines
+- Payment Card Industry Data Security Standard (PCI DSS)
+- [SWEBOK Guide](https://www.computer.org/web/swebok)
+- [IEEE Standard 829-2008](https://standards.ieee.org/standard/829-2008.html)
