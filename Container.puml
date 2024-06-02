@@ -1,6 +1,6 @@
 @startuml
 
-title Container Diagram for Airbnb-like Platform
+title Container Diagram for CozyCove
 
 skinparam rectangle {
   BackgroundColor<< Frontend >> #CCFFFF
@@ -13,7 +13,7 @@ actor Guest
 actor Host
 actor CustomerSupportAgent
 
-rectangle "Airbnb Platform" {
+rectangle "CozyCove" {
   rectangle Frontend << Frontend >> {
     [Web Application]
     [Mobile Application]
