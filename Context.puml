@@ -1,6 +1,6 @@
 @startuml
 
-title Context Diagram for Airbnb-like Platform
+title Context Diagram for CozyCove
 
 actor Guest
 actor Host
@@ -9,12 +9,12 @@ actor PaymentGateway
 actor EmailService
 actor SMSService
 
-Guest -right-> (Airbnb Platform): Use
-Host -right-> (Airbnb Platform): Use
-CustomerSupportAgent -left-> (Airbnb Platform): Support
+Guest -right-> (CozyCove): Use
+Host -right-> (CozyCove): Use
+CustomerSupportAgent -left-> (CozyCove): Support
 
-(Airbnb Platform) .> PaymentGateway: Process Payments
-(Airbnb Platform) .> EmailService: Send Emails
-(Airbnb Platform) .> SMSService: Send SMS
+(CozyCove) .> PaymentGateway: Process Payments
+(CozyCove) .> EmailService: Send Emails
+(CozyCove) .> SMSService: Send SMS
 
 @enduml
