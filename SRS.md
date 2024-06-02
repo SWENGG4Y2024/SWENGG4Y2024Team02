@@ -6,104 +6,104 @@ The Software Requirements Specification (SRS) for CozyCove outlines the function
 ## Description
 CozyCove is a platform designed to connect guests with hosts offering properties for short-term stays. The platform facilitates property searching, booking, listing management, user profile management, secure payments, reviews, and communication between users. It aims to provide a seamless and secure user experience for both guests and hosts.
 
-## Product Features
+## Product Requirements
 
 ### Requirements for Guests
 
 #### 1. Registration and ID Verification
-- **Account Creation**: Enable account creation via email, phone number, or social media accounts.
-- **ID Verification**: Implement ID verification using government-issued ID and a recent photograph.
-- **Email and Phone Verification**: Send verification links or codes to ensure authenticity.
+- **Account Creation**: Guests must have the capability to create an account using their email address, phone number, or social media accounts.
+- **ID Verification**: Guests are required to complete an ID verification process by providing a valid government-issued ID and a recent photograph.
+- **Email and Phone Verification**: Verification links or codes should be sent to the guest's email and phone number to ensure authenticity.
 
 #### 2. User Profile
-- **Profile Information**: Allow guests to create and edit profiles, including name, age, gender, and bio.
-- **Preferences**: Enable setting preferences for notifications, communication, and search filters.
+- **Profile Information**: Guests must be given the ability to create and edit their profile, including personal information such as name, age, gender, and bio.
+- **Preferences**: Guests should be allowed to set preferences for notifications, communication, and search filters.
 
 #### 3. Property Search and Listing
-- **Search Filters**: Provide search filters for location, price range, amenities, property type, and dates.
-- **Map View**: Include a map view to display available properties.
-- **Save Favorites**: Allow guests to save properties to a favorites list.
+- **Search Filters**: Guests should have access to property search filters such as location, price range, amenities, property type, and dates.
+- **Map View**: Guests must be able to view available properties on a map.
+- **Save Favorites**: Guests should be provided with the functionality to save properties to a favorites list for future reference.
 
 #### 4. Property Booking
-- **Booking Process**: Facilitate booking from the listing page with specified check-in and check-out dates.
-- **Booking Confirmation**: Send booking confirmation via email and SMS.
-- **Reservation Management**: Allow guests to view, manage, and cancel reservations.
+- **Booking Process**: Guests should have the capability to book a property directly from the listing page, specifying the check-in and check-out dates.
+- **Booking Confirmation**: Guests must receive a booking confirmation via email and SMS.
+- **Reservation Management**: Guests should have access to view, manage, and cancel their reservations from their profile.
 
 #### 5. Secure Payments
-- **Payment Methods**: Support multiple payment methods, including credit/debit cards and PayPal.
-- **Payment Security**: Use a secure payment gateway for processing payments.
-- **Payment Receipts**: Send electronic receipts for each transaction.
+- **Payment Methods**: The platform must support multiple payment methods, including credit/debit cards, PayPal, and other local payment options.
+- **Payment Security**: Payments must be processed through a secure payment gateway to ensure the safety of financial information.
+- **Payment Receipts**: Guests should receive an electronic receipt for each transaction.
 
 #### 6. Cancel Bookings and Refunds
-- **Cancellation Policies**: Display clear cancellation policies for each property.
-- **Cancellation Process**: Allow guests to cancel bookings from their reservation management page.
-- **Refund Process**: Process refunds according to the property's cancellation policy.
+- **Cancellation Policies**: The platform must display the cancellation policies for each property.
+- **Cancellation Process**: Guests should be able to cancel bookings directly from their reservation management page.
+- **Refund Process**: Refunds should be processed according to the property's cancellation policy and refunded to the original payment method.
 
 #### 7. Reviews and Ratings
-- **Eligibility**: Allow only guests who have completed their stay to leave reviews.
-- **Review Content**: Enable guests to provide ratings and detailed reviews.
+- **Eligibility**: Only guests who have completed their stay should have the ability to leave reviews and ratings.
+- **Review Content**: Guests should be allowed to provide a rating (1-5 stars) and write a detailed review of their stay. All ratings and reviews will be publicly available.
 
 #### 8. Communication
-- **Communication with the Host**: Provide an in-platform messaging system for guest-host communication.
-- **Communication with Customer Support**: Offer multiple channels for customer support, including in-app messaging, email, and phone.
+- **Communication with the Host**: Guests should have access to an in-platform messaging system to communicate with hosts.
+- **Communication with Customer Support**: Guests should have easy access to customer support through multiple channels, including in-app messaging, email, and phone.
 
 ### Requirements for Hosts
 
 #### 9. Registration and ID Verification
-- **Account Creation**: Enable account creation via email, phone number, or social media accounts.
-- **ID Verification**: Implement ID verification using government-issued ID and a recent photograph.
-- **Email and Phone Verification**: Send verification links or codes to ensure authenticity.
+- **Account Creation**: Hosts must be provided with the capability to create an account using their email address, phone number, or social media accounts.
+- **ID Verification**: Hosts are required to complete an ID verification process by providing a valid government-issued ID and a recent photograph.
+- **Email and Phone Verification**: Verification links or codes should be sent to the host's email and phone number to ensure authenticity.
 
 #### 10. User Profile
-- **Profile Information**: Allow hosts to create and edit profiles, including name, age, gender, and bio.
-- **Profile Picture**: Enable hosts to upload a clear profile picture.
-- **Verification Badges**: Display verification badges once ID verification is completed.
+- **Profile Information**: Hosts must be given the ability to create and edit their profile, including personal information such as name, age, gender, and bio.
+- **Profile Picture**: Hosts should be allowed to upload a clear profile picture.
+- **Verification Badges**: Hosts should be able to display verification badges once ID verification is completed.
 
 #### 11. Managing Listings
-- **Create Listings**: Allow hosts to create new property listings with photos, descriptions, amenities, house rules, pricing, and availability.
-- **Edit Listings**: Enable hosts to edit existing listings.
-- **Listing Status**: Allow hosts to change the status of their listings.
-- **Pricing Management**: Enable hosts to set and adjust pricing, including seasonal pricing and discounts.
+- **Create Listings**: Hosts should be able to create new property listings, including details such as photos, description, amenities, house rules, pricing, and availability calendar.
+- **Edit Listings**: Hosts must be able to edit existing listings to update information, photos, and availability.
+- **Listing Status**: Hosts should be able to change the status of their listings (e.g., active, inactive, temporarily unavailable).
+- **Pricing Management**: Hosts should have the ability to set and adjust pricing, including seasonal pricing and discounts.
 
 #### 12. Booking Management
-- **Booking Requests**: Allow hosts to receive and manage booking requests.
-- **Booking Calendar**: Provide a calendar view to manage booking dates and availability.
-- **Instant Booking**: Enable hosts to toggle instant booking.
-- **Booking Confirmation**: Send booking confirmations via email and SMS.
+- **Booking Requests**: Hosts should receive and manage booking requests, with the option to accept or decline.
+- **Booking Calendar**: Hosts must have access to a calendar view to manage booking dates and availability.
+- **Instant Booking**: Hosts should have the option to enable or disable instant booking.
+- **Booking Confirmation**: Hosts must receive booking confirmations via email and SMS.
 
 #### 13. Cancel Bookings
-- **Cancellation Policies**: Support multiple cancellation policies.
-- **Cancellation Process**: Allow hosts to cancel bookings.
-- **Penalties and Consequences**: Inform hosts of penalties or consequences associated with cancellations.
+- **Cancellation Policies**: The platform must support multiple cancellation policies (e.g., flexible, moderate, strict) that hosts can choose from.
+- **Cancellation Process**: Hosts should be able to cancel bookings directly from their booking management page.
+- **Penalties and Consequences**: Hosts should be informed of any penalties or consequences associated with cancellations.
 
 #### 14. Communication
-- **Communication with the Guest**: Provide an in-platform messaging system for host-guest communication.
-- **Communication with Customer Support**: Offer multiple channels for customer support, including in-app messaging, email, and phone.
+- **Communication with the Guest**: Hosts should have access to an in-platform messaging system to communicate with guests.
+- **Communication with Customer Support**: Hosts should have easy access to customer support through multiple channels, including in-app messaging, email, and phone.
 
 ### Requirements for Customer Support
 
 #### 15. Call and Chat Support
-- **Multichannel Support**: Enable customer support agents to handle inquiries via phone calls and live chat.
-- **Chat Interface**: Allow agents to manage multiple conversations simultaneously.
-- **Call Management**: Include features such as call routing, call hold, call transfer, and call recording.
-- **Response Time**: Ensure agents adhere to specified response times.
-- **Communication History**: Provide agents access to complete communication history with users.
+- **Multichannel Support**: Customer support agents must be able to handle inquiries through both phone calls and live chat.
+- **Chat Interface**: The chat interface should allow customer support agents to manage multiple conversations simultaneously.
+- **Call Management**: The call system should include features such as call routing, call hold, call transfer, and call recording for quality assurance.
+- **Response Time**: Customer support agents should adhere to specified response times for both chat and call support to ensure timely assistance.
+- **Communication History**: Customer support agents should have access to the complete communication history with a user for context in ongoing support interactions.
 
 #### 16. Access to Booking Details
-- **Booking Overview**: Provide a comprehensive overview of all bookings.
-- **Booking Details**: Include detailed booking information.
-- **Booking Management**: Enable agents to modify bookings, cancel reservations, and process refunds.
-- **Issue Resolution**: Allow agents to log and track booking issues.
+- **Booking Overview**: Customer support agents must have access to a comprehensive overview of all bookings, including current, past, and future reservations.
+- **Booking Details**: Detailed information for each booking should include guest and host information, booking dates, property details, payment status, and any special requests or notes.
+- **Booking Management**: Customer support agents should have the ability to modify bookings, cancel reservations, and process refunds according to the platform's policies.
+- **Issue Resolution**: Customer support agents should be able to log and track issues related to bookings, ensuring they are resolved efficiently.
 
 #### 17. Access to Property Details
-- **Property Listings**: Provide detailed information about all properties.
-- **Property Details**: Include property descriptions, amenities, house rules, photos, pricing, availability, and host contact information.
-- **Property Management**: Enable agents to update property details and manage listing status.
-- **Verification Status**: Allow agents to view and manage verification status of properties and hosts.
+- **Property Listings**: Customer support agents must have access to detailed information about all properties listed on the platform.
+- **Property Details**: Information should include property descriptions, amenities, house rules, photos, pricing, availability, and host contact information.
+- **Property Management**: Customer support agents should have the ability to update property details, manage listing status, and assist hosts with listing issues.
+- **Verification Status**: Customer support agents should be able to view and manage the verification status of properties and hosts.
 
 #### 18. ID Verification of Guests and Hosts
-- **Verification Management**: Enable agents to verify the authenticity of IDs.
-- **Security and Privacy**: Ensure secure access to user information, maintaining privacy.
+- **Verification Management**: Customer support agents should have access to verify the authenticity of IDs uploaded by the Guests and Hosts and manage the verification process.
+- **Security and Privacy**: Customer support agents should have access to user information in a secure manner, ensuring the privacy and security of all data.
 
 ## User Interface
 ### Guest Interface
