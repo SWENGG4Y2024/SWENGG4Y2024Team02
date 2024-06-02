@@ -10,7 +10,7 @@ Guests are the users who rent accommodations, experiences, or places through the
 
 Hosts are individuals or entities that offer their spaces, experiences, or places for rent on the CozyCove platform. They expect a user-friendly platform where they can list their offerings, manage bookings, and receive fair compensation. Their interests include attracting Guests, setting competitive prices, and maintaining good ratings.
 
-## Customer Support Role
+## Customer Support
 
 The Customer Support representative for the CozyCove platform is responsible for assisting Guests and Hosts with inquiries, issues, and concerns related to their bookings and experiences. This role involves providing timely and effective support through various channels, including email, phone, and live chat. The representative must have a thorough understanding of the platform's policies, features, and services to resolve issues efficiently and ensure a positive user experience.
 
