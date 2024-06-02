@@ -99,8 +99,8 @@ The User Requirements Document (URD) outlines the functional aspects of the Cozy
 - **Property Management**: Customer support agents should have the ability to update property details, manage listing status, and assist hosts with listing issues.
 - **Verification Status**: Customer support agents should be able to view and manage the verification status of properties and hosts.
 
-### 18. ID Verification
-- **Verification Management**: Customer support agents should have access to verify the authenticity of IDs uploaded by users and manage the verification process.
+### 18. ID Verification of Guests and Hosts
+- **Verification Management**: Customer support agents should have access to verify the authenticity of IDs uploaded by the Guests and Hosts and manage the verification process.
 - **Security and Privacy**: Customer support agents should have access to user information in a secure manner, ensuring the privacy and security of all data.
 
 ## Conclusion
