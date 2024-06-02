@@ -6,6 +6,6 @@ The system context diagram shows the interactions between the CozyCove system an
 
 ![System Context Diagram](Context.png)
 
-The container diagram shows the high-level containers that make up the Airbnb system.
+The container diagram shows the high-level containers that make up the CozyCove system.
 
 ![System Context Diagram](Container.png)
