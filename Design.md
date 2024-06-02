@@ -69,6 +69,7 @@ Components are designed to be reusable across different parts of the system, red
 ### Activity Diagram for Property Search and Listing
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/b9e4101a-6170-48f1-93a7-949e54b1b0ee)
 
+### Activity Diagram for Cancel Bookings and Refunds
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/7850323e-05fc-4509-aa66-9bc5727668df)
 
 ### Activity Diagram for Guest-Host Communication
