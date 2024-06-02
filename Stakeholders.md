@@ -16,7 +16,7 @@ The Customer Support representative for the CozyCove platform is responsible for
 
 ## System Administrator
 
-The System Administrator for the Airbnb platform is responsible for the comprehensive management, maintenance, and security of the platform's infrastructure. This role entails overseeing user account management, configuring system settings, performing regular backups, and ensuring optimal performance of servers and networks. The SysAdmin has full access to all system functions, enabling them to troubleshoot issues, deploy updates, and enforce security protocols.
+The System Administrator for the CozyCove platform is responsible for the comprehensive management, maintenance, and security of the platform's infrastructure. This role entails overseeing user account management, configuring system settings, performing regular backups, and ensuring optimal performance of servers and networks. The SysAdmin has full access to all system functions, enabling them to troubleshoot issues, deploy updates, and enforce security protocols.
 
 ## Regulators
 
