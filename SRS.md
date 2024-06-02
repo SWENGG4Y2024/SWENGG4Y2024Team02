@@ -191,8 +191,8 @@ The Requirements Traceability Matrix (RTM) maps the User Requirements Document (
 - **ID Verification**: The process of validating a user's identity using government-issued ID.
 
 ### References
-- User Requirements Document (URD) for CozyCove
-- GDPR Compliance Guidelines
-- Payment Card Industry Data Security Standard (PCI DSS)
+- [User Requirements Document (URD) for CozyCove](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/blob/main/URD.md)
 - [SWEBOK Guide](https://www.computer.org/web/swebok)
 - [IEEE Standard 829-2008](https://standards.ieee.org/standard/829-2008.html)
+- GDPR Compliance Guidelines
+- Payment Card Industry Data Security Standard (PCI DSS)
