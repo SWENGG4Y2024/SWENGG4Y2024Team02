@@ -1,33 +1,20 @@
 @startuml
-title Airbnb System Context Diagram
+
+title Context Diagram for Airbnb-like Platform
 
 actor Guest
 actor Host
-actor Admin
-rectangle AirbnbSystem
+actor CustomerSupportAgent
+actor PaymentGateway
+actor EmailService
+actor SMSService
 
-Guest --> AirbnbSystem : Uses
-Host --> AirbnbSystem : Uses
-Admin --> AirbnbSystem : Administers
+Guest -right-> (Airbnb Platform): Use
+Host -right-> (Airbnb Platform): Use
+CustomerSupportAgent -left-> (Airbnb Platform): Support
 
-rectangle "User Management" {
-  AirbnbSystem --> "User Management" : Handles user registration and authentication
-}
-
-rectangle "Property Management" {
-  AirbnbSystem --> "Property Management" : Manages property listings
-}
-
-rectangle "Booking Management" {
-  AirbnbSystem --> "Booking Management" : Manages property bookings
-}
-
-rectangle "Payment Management" {
-  AirbnbSystem --> "Payment Management" : Processes payments
-}
-
-rectangle "Review and Rating Management" {
-  AirbnbSystem --> "Review and Rating Management" : Handles reviews and ratings
-}
+(Airbnb Platform) .> PaymentGateway: Process Payments
+(Airbnb Platform) .> EmailService: Send Emails
+(Airbnb Platform) .> SMSService: Send SMS
 
 @enduml
