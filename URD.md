@@ -77,5 +77,31 @@ The User Requirements Document (URD) outlines the functional aspects of the Cozy
 - **Communication with the Guest**: Hosts should have access to an in-platform messaging system to communicate with guests.
 - **Communication with Customer Support**: Hosts should have easy access to customer support through multiple channels, including in-app messaging, email, and phone.
 
+
+## User Requirements for Customer Support
+
+### 15. Call and Chat Support
+- **Multichannel Support**: Customer support Customer support agents must be able to handle inquiries through both phone calls and live chat.
+- **Chat Interface**: The chat interface should allow customer support agents to manage multiple conversations simultaneously.
+- **Call Management**: The call system should include features such as call routing, call hold, call transfer, and call recording for quality assurance.
+- **Response Time**: Customer support agents should adhere to specified response times for both chat and call support to ensure timely assistance.
+- **Communication History**: Customer support agents should have access to the complete communication history with a user for context in ongoing support interactions.
+
+### 16. Access to Booking Details
+- **Booking Overview**: Customer support agents must have access to a comprehensive overview of all bookings, including current, past, and future reservations.
+- **Booking Details**: Detailed information for each booking should include guest and host information, booking dates, property details, payment status, and any special requests or notes.
+- **Booking Management**: Customer support agents should have the ability to modify bookings, cancel reservations, and process refunds according to the platform's policies.
+- **Issue Resolution**: Customer support agents should be able to log and track issues related to bookings, ensuring they are resolved efficiently.
+
+### 17. Access to Property Details
+- **Property Listings**: Customer support agents must have access to detailed information about all properties listed on the platform.
+- **Property Details**: Information should include property descriptions, amenities, house rules, photos, pricing, availability, and host contact information.
+- **Property Management**: Customer support agents should have the ability to update property details, manage listing status, and assist hosts with listing issues.
+- **Verification Status**: Customer support agents should be able to view and manage the verification status of properties and hosts.
+
+### 18. ID Verification
+- **Verification Management**: Customer support agents should have access to verify the authenticity of IDs uploaded by users and manage the verification process.
+- **Security and Privacy**: Customer support agents should have access to user information in a secure manner, ensuring the privacy and security of all data.
+
 ## Conclusion
 The User Requirements Document (URD) outlines the essential functionalities that Hosts and Customers expect from the CozyCove platform. By addressing these user requirements, CozyCove can deliver a seamless and satisfying user experience, leading to increased user satisfaction and engagement.
