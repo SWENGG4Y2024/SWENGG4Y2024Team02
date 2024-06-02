@@ -63,19 +63,19 @@ Components are designed to be reusable across different parts of the system, red
 - System Monitoring
 
 ## Activity Diagrams
-- Activity Diagram for Guest Registration and ID Verification
+### Activity Diagram for Guest Registration and ID Verification
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/985f600d-5ded-4f11-af55-b30ce5158478)
 
-- Activity Diagram for Property Search and Listing
+### Activity Diagram for Property Search and Listing
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/b9e4101a-6170-48f1-93a7-949e54b1b0ee)
 
-- Activity Diagram for Cancel Bookings and Refunds
+### Activity Diagram for Cancel Bookings and Refunds
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/7850323e-05fc-4509-aa66-9bc5727668df)
 
-- Activity Diagram for Guest-Host Communication
+### Activity Diagram for Guest-Host Communication
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/d36aa4f6-d113-4ad9-ad4a-4386054560e4)
 
-- Activity Diagram for Customer Support Booking and Property Access
+### Activity Diagram for Customer Support Booking and Property Access
 ![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team02/assets/87032748/39f93d92-c3cf-42f2-ae05-0dfac02e21f2)
 
 
