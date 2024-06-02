@@ -1,4 +1,4 @@
-# Airbnb Architecture
+# CozyCove Architecture
 
 ## System Context Diagram
 
