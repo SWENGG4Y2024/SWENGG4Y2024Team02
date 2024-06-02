@@ -1,5 +1,5 @@
 ## Introduction
-This document provides a comprehensive design for a software system Airbnb. The purpose of this document is to outline the design principles, and components of the system to guide the development process.
+This document provides a comprehensive design for a software system CozyCove. The purpose of this document is to outline the design principles, and components of the system to guide the development process.
 
 ## System Overview
 The system is a web-based platform that allows users to list, discover, and book accommodations. It includes features for property owners to manage listings, for travelers to search and book properties, and for both parties to manage reservations and payments.
@@ -86,4 +86,4 @@ The database design follows a relational model with the following key entities:
 - **Reviews**: Records user reviews and ratings.
   
 ## Conclusion
-This design document outlines the  components, and principles for developing a software system Airbnb. Following these guidelines will help ensure a robust, scalable, and secure application.
+This design document outlines the  components, and principles for developing a software system CozyCove. Following these guidelines will help ensure a robust, scalable, and secure application.
